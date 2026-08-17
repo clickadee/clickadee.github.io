@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curriculum — Clickadee</title>
+<meta name="description" content="10 Saturdays. One project. The Clickadee Cohort 1.0 curriculum.">
+<link rel="icon" href="favicon/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Primary">
+    <a class="nav-logo" href="index.html">
+      <img class="nav-logo-icon" src="assets/images/clickadee-logo-mark.png" alt="">
+      Clickadee
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="curriculum.html">Curriculum</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="section grid-texture">
+    <div class="wrap">
+      <p class="mono-label">Cohort 1.0</p>
+      <div class="curriculum-intro reveal">
+        <h1>10 weeks. One research project, built from the ground up.</h1>
+        <p>Each week mixes lectures, hands-on coding, guest speakers, and paper discussions,
+          all in service of the independent research project you'll bring to Demo Day. Tap
+          any card below for the full weekly rundown.</p>
+      </div>
+
+      <div class="week-row-wrap">
+        <button class="week-nav-btn week-nav-prev" type="button" aria-label="Scroll to previous weeks">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <div class="week-row" role="list">
+        <!-- Dates are pulled from the FAQ session schedule. -->
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 01</p>
+                <h3>Welcome to the Lab</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Meet your cohort</li>
+                <li>Colab &amp; environment setup</li>
+                <li>Build your first model: linear regression</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-1">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-1" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 01 — SAT SEP 19</p>
+              <h3>Welcome to the Lab</h3>
+              <p class="week-card-detail">We will get to know each other with some community-building activities and go
+                over the logistics of the course. Students will learn the basics of linear regression. After
+                getting set up in Google Colab, students will build their very first machine learning model.</p>
+              <p class="mono-label week-card-index">Lab Meeting</p>
+              <ul class="week-card-bullets">
+                <li>Walkthrough of the research project ahead, including examples</li>
+                <li>How to use your research notebook</li>
+              </ul>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 02</p>
+                <h3>How Models Learn</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Gradient descent</li>
+                <li>Dataset splits</li>
+                <li>Overfitting</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-2">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-2" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 02 — SAT SEP 26</p>
+              <h3>How Models Learn</h3>
+              <p class="week-card-detail">We will take a closer look at what's happening inside a linear regression
+                model and learn about the logic of gradient descent. Then, we will discuss how to split a
+                dataset into training, validation, and testing splits, and learn about data leakage. We will
+                discover what overfitting means.</p>
+              <p class="mono-label week-card-index">Lab Meeting</p>
+              <ul class="week-card-bullets">
+                <li>Guest researcher presentation</li>
+                <li>How to read a research paper</li>
+              </ul>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 03</p>
+                <h3>Making Decisions with Data</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Logistic regression</li>
+                <li>Evaluating binary classifiers</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-3">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-3" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 03 — SAT OCT 3</p>
+              <h3>Making Decisions with Data</h3>
+              <p class="week-card-detail">Students move from predicting numbers with linear regression to predicting
+                categories with logistic regression. We will learn how to evaluate binary classifiers in
+                real-world situations, including confusion matrices and AUROC. We will also introduce
+                multi-class classification and softmax.</p>
+              <p class="mono-label week-card-index">Lab Meeting</p>
+              <ul class="week-card-bullets">
+                <li>Students give lightning talks on a research paper they read</li>
+              </ul>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 04</p>
+                <h3>The Messy Side of Data</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Finding structure with unsupervised learning</li>
+                <li>Cleaning messy, real-world data</li>
+                <li>Choosing your research question</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-4">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-4" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 04 — SAT OCT 10</p>
+              <h3>The Messy Side of Data</h3>
+              <p class="week-card-detail">We will learn two skills every researcher needs: finding patterns in unlabeled
+                data (clustering, dimensionality reduction), and wrangling real, messy datasets with pandas
+                and NumPy.</p>
+              <p class="mono-label week-card-index">Lab Meeting</p>
+              <ul class="week-card-bullets">
+                <li>How to formulate a strong research question</li>
+                <li>Setting up your research project in Colab</li>
+                <li>How to effectively use AI coding assistants as a beginner researcher</li>
+              </ul>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 05</p>
+                <h3>Building Your First Neural Network</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Neurons, layers &amp; activation functions</li>
+                <li>Backpropagation</li>
+                <li>Training your first network in PyTorch</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-5">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-5" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 05 — SAT OCT 17</p>
+              <h3>Building Your First Neural Network</h3>
+              <p class="week-card-detail">We will learn the anatomy of a neural network (neurons, layers, and
+                activation functions) and how neural networks learn through backpropagation. Then, students
+                will build their first neural network from the ground up using PyTorch.</p>
+              <p class="mono-label week-card-index">Lab Meeting</p>
+              <ul class="week-card-bullets">
+                <li>Share your research project idea in small groups</li>
+                <li>Work on your research project (office hours)</li>
+              </ul>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 06</p>
+                <h3>Tuning the Machine</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Regularization</li>
+                <li>Hyperparameter tuning</li>
+                <li>More PyTorch practice</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-6">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-6" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 06 — SAT OCT 24</p>
+              <h3>Tuning the Machine</h3>
+              <p class="week-card-detail">We will take a deeper dive into neural networks and get more practice using
+                PyTorch. We will learn how to prevent a model from memorizing its training data, and how to
+                make intentional choices about architecture and hyperparameters instead of guessing.</p>
+              <p class="mono-label week-card-index">Lab Meeting</p>
+              <ul class="week-card-bullets">
+                <li>Guest researcher presentation</li>
+                <li>Work on your research project (office hours)</li>
+              </ul>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 07</p>
+                <h3>Teaching Computers to See</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Convolutional neural networks (CNNs)</li>
+                <li>Convolutions &amp; pooling</li>
+                <li>Applying a CNN to your own data</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-7">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-7" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 07 — SAT OCT 31</p>
+              <h3>Teaching Computers to See</h3>
+              <p class="week-card-detail">We will learn about how networks can process images using convolutions,
+                pooling, and convolutional neural networks (CNNs). Then, we will experiment with building
+                and applying a CNN to a real dataset.</p>
+              <p class="mono-label week-card-index">Lab Meeting</p>
+              <ul class="week-card-bullets">
+                <li>Scientific writing tips</li>
+                <li>Starting your research blog post</li>
+                <li>Work on your research project (office hours)</li>
+              </ul>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 08</p>
+                <h3>How Transformers Work</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Transformers &amp; attention</li>
+                <li>Why transformers replaced older architectures</li>
+                <li>Applying a transformer in practice</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-8">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-8" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 08 — SAT NOV 7</p>
+              <h3>How Transformers Work</h3>
+              <p class="week-card-detail">We will learn the architecture behind today's most powerful AI models:
+                transformers! We will discuss attention and students will implement the attention mechanism
+                with a small example. Then, using a pretrained transformer, we will visualize real attention
+                patterns on our own sentences.</p>
+              <p class="mono-label week-card-index">Lab Meeting</p>
+              <ul class="week-card-bullets">
+                <li>What makes a good figure</li>
+                <li>Work on your research project (office hours)</li>
+              </ul>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 09</p>
+                <h3>Language Models</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>How large language models are trained</li>
+                <li>Prompting &amp; fine-tuning</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-9">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-9" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 09 — SAT NOV 14</p>
+              <h3>Language Models</h3>
+              <p class="week-card-detail">We will explore how LLMs work under the hood, including training, prompting,
+                and fine-tuning.</p>
+              <p class="week-card-detail"><em>No lab meeting this week. Instead, students will meet with me in 1:1
+                sessions to discuss their research project.</em></p>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <div class="week-card-title">
+                <p class="mono-label week-card-index">WEEK 10</p>
+                <h3>Reinforcement Learning</h3>
+              </div>
+              <ul class="week-card-bullets">
+                <li>Reinforcement learning &amp; world models</li>
+                <li>Research project work time</li>
+                <li>Polishing your presentation</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-10">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-10" aria-hidden="true">
+              <p class="mono-label week-card-index">WEEK 10 — SAT NOV 21</p>
+              <h3>Reinforcement Learning</h3>
+              <p class="week-card-detail">We will cover our last technical topics: reinforcement learning and world
+                models. Then, we will have dedicated time for students to wrap up their research project and
+                work on their Demo Day presentations.</p>
+              <p class="week-card-detail"><em>No lab meeting this week. Instead, students will meet with me in 1:1
+                sessions to discuss their research project.</em></p>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card week-card week-card--final" role="listitem">
+          <div class="week-card-inner">
+            <div class="week-card-face week-card-face--front">
+              <p class="mono-label week-card-index">DEMO DAY</p>
+              <h3>Sat, Dec 5</h3>
+              <ul class="week-card-bullets">
+                <li>Student project presentations</li>
+                <li>Open to family &amp; friends</li>
+                <li>Celebrating the cohort</li>
+              </ul>
+              <button class="week-card-expand" type="button" aria-expanded="false" aria-controls="week-back-demo">Read more →</button>
+            </div>
+            <div class="week-card-face week-card-face--back" id="week-back-demo" aria-hidden="true">
+              <p class="mono-label week-card-index">DEMO DAY — SAT DEC 5</p>
+              <h3>Sat, Dec 5</h3>
+              <p class="week-card-detail">Students present the research projects they've built over the last ten
+                weeks to the rest of the lab, family, and friends!</p>
+              <button class="week-card-expand week-card-back-btn" type="button" tabindex="-1">← Back</button>
+            </div>
+          </div>
+        </article>
+        </div>
+
+        <button class="week-nav-btn week-nav-next" type="button" aria-label="Scroll to next weeks">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="text-align:center;">
+      <a class="btn btn-primary" href="#apply">Apply</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="curriculum.html">Curriculum</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <div class="footer-links">
+      <a class="btn btn-secondary" href="#apply" id="apply">Apply</a>
+    </div>
+  </div>
+  <div class="wrap footer-copy">© 2026 Clickadee. All rights reserved.</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

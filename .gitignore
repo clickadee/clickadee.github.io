@@ -1,0 +1,22 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Planning & draft materials — not part of the live site
+Clickadee Master Doc.pdf
+Clickadee Website Copy.pdf
+website_plan_1.md
+logo_brainstorming.docx
+
+# Unused source/exploration assets — not referenced by the site
+Gemini_Generated_Image_9eqz299eqz299eqz.png
+Gemini_Generated_Image_i64yeii64yeii64y.png
+clickadee_logo.png
+clickadee_logo_circle.png
+clickadee_logo_transparent.png
+pusheen.png
+MyCustomFont.ttf
+prof_pic_grad.jpg
+
+# Font source file — only the .woff/.woff2 builds are used by the site
+assets/fonts/lucia-hand.ttf
